@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F2DFCE;
+}
+
+header{
+    background-color: #ACBFA3;
+    height: 13vh;
+}
+
+h1{
+    float: left;
+    margin-left: 10px;
+    margin-top: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #BF5111;
+}
+
+nav{
+    float: right;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 35px;
+    color: #BF5111;
+}
+
+.logo{
+    float: left;
+    margin-left: 60px;
+    margin-top: 8px;
+    margin-bottom: 10px; 
+}
+
+.title{
+    margin-top: 700px;
+}
+
+#txtinicio{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: justify;
+    /*float: inline-end;*/
+
+}
+
+#imginicio{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 38px;
+    text-align: center;
+    color:#BF5111;
+}
+
+p{
+    font-size: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+a:hover{
+    background-color: antiquewhite;
+    border-radius: 20%;
+}
+
+a:visited{
+    color: #BF5111;
+}
+
+.img1{
+    float:left;
+
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 50px;
+    border-style: groove;
+    border-color: #BF5111;
+}
+
+.img2{
+    float: left;
+
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 200px;
+    border-style: groove;
+    border-color: #BF5111;
+
+}
+
+a{
+    padding: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+ul{
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 90px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.img3{
+    float: left;
+    margin-left: 160px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img4{
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pgt{
+    text-align: center;
+}
+
+#rodape{
+    /*float: inline-end;*/
+    /*margin-right: 950px;*/
+    align-content: center;
+    background-color: #ACBFA3;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+#rodape1{
+    align-content: center;
+    background-color: #ACBFA3;
+    margin-top: 700px;
+    font-size: 20px;
+}
+
+h4{
+    text-align: center;
+}
+
+.logo1{
+    /*padding-left: 50px;*/
+    text-align: center;
+}
+
+#historia{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.img5{
+    float: right;
+    margin-top: 60px;
+    margin-right: 90px;
+    padding-left: 15px;
+}
+
+.img6{
+    float: left;
+    margin-top: 40px;
+    margin-left: 90px;
+    padding-right: 30px;
+}
+
+hr{
+    margin-left: 90px;
+    margin-right: 90px;
+    color: black;
+}
+
+form{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 90px;
+    font-size: 25px;
+    background-color: #ACBFA3;
+    padding: 20px;
+    border-style: dashed;
+    border-color: white;
+    text-align: center;
+}
+
+.video{
+    font-size: 30px;
+    margin-left: 480px;
+}
+
+input{
+    height: 30px;
+}
+
+#radio{
+    width: 25px;
+    height: 25px;
+}
+
+.indicacao{
+    margin-top: 90px;
+}
+
+#lista{
+    margin: 80px;
+    background-color: #ACBFA3;
+    padding: 25px;
+}
+
+#lista1{
+    margin: 80px;
+    background-color: #ACBFA3;
+    padding: 25px;
+    margin-top: 700px;
+}
+
+#lista2{
+    margin: 80px;
+    background-color: #ACBFA3;
+    padding: 25px;
+    margin-top: 650px;
+}
+
+
+.loja{
+    float: left;
+    margin: 10px;
+    background-color: antiquewhite;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid;
+    border-color: #BF5111;
+    margin-left: 88px;
+    align-items: center;
+}
+
+.loja1{
+    float: left;
+    margin: 10px;
+    background-color: antiquewhite;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid;
+    border-color: #BF5111;
+    margin-left: 98px;
+    align-items: center;
+}
+
+.loja2{
+    float: left;
+    margin: 10px;
+    background-color: antiquewhite;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid;
+    border-color: #BF5111;
+    margin-left: 78px;
+    align-items: center;
+}
+
+#info{
+    /*margin-left: 15px;*/
+    font-size: 25px;
+}
+
+#cnt{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.eu{
+    border-radius: 50%;
+}
+
+.whats{
+    float: left;
+    margin: 20px;
+    margin-top: 66px;
+    margin-left: 875px;
+    padding: 5px;
+}
+
+.email{
+    float: left;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 5px;
+}
